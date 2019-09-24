@@ -1,0 +1,74 @@
+* {
+    background: #fafafa
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* to move items - move from the parent */
+
+article {
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* align-items: stretch; */
+    /* flex-direction: row; */
+    display: flex;
+    margin-top: 20px;
+    width: 75%;
+    border: 1px solid black;
+}
+
+
+main img{
+    width: 50%;
+    justify-content: center;
+}
+
+.sign-up{
+    /* position: absolute; */
+}
+
+main ul{
+    justify-content: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+.download-links {
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 13.3333px;
+    line-height: normal;
+    align-content: space-between;
+}
+
+footer ul {
+    display: inline-block;
+}
+
+footer ul li{
+    display: inline-block;
+    margin-right: .25vw;
+    margin-left: .25vw;
+}
+
+footer ul[id="nav-list"] {
+    color: #003569;
+}
+
+footer div[id="company-info"] {
+    justify-content: flex-end;
+    margin-left: 15vw;
+    color: #999999
+}
